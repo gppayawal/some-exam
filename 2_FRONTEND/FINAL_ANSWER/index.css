@@ -1,0 +1,68 @@
+body{
+	width: 100vw;
+	height: 100vh;
+	background: url(BG1.jpg);
+	background-size:  cover;
+	box-sizing:  border-box;
+	margin: 0;
+	color: #999;
+	padding: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#header{
+	box-sizing: border-box;
+	width: 100%;
+	background: whitesmoke;
+	border-radius: 5px;
+	text-align:center;
+	font-size: 18px;
+	padding: 5px;
+	margin-top: 7px;
+}
+
+#icon{
+	width: 160px;	
+}
+
+#holder{
+	box-sizing: border-box;
+	width: 90%;
+	max-width: 870px;
+	padding: 5px;
+	background: whitesmoke;
+	border-radius: 4px;
+	text-align:center;
+	border:none;
+
+	position: absolute;
+	top: 7%;
+	left: 50%;
+	transform:  translate(-50%);
+
+	-webkit-box-shadow: 5px 5px 15px 5px #000000; 
+	box-shadow: 5px 5px 15px 5px #000000;
+
+}
+
+th{
+	width: 200px;
+	height: 35px;
+	text-align: center;
+	border: 2px solid;
+	border: 2px solid;
+	background-color: saddlebrown;
+	font-weight: bold;
+	font-size: 20px;
+	color: white;
+}
+
+td{
+	width: 300px;
+	height: 30px;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 500;
+	color: black;
+	font-family: "Lucida Console", "Courier New", monospace;
+}
